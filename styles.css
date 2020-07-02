@@ -15,10 +15,14 @@
 .navbar{
     display: flex;
     max-width: 100%;
+    
+    
 }
 
 .navbar-title{
     padding: 20px;
+    
+    
 }
 
 .navbar-title a{
@@ -58,7 +62,27 @@
     margin-top: 10px;
 }
 
+.contact{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 200px;
+   
 
+}
+    
+
+
+.contact a{
+    text-decoration: none;
+    border: 1px solid #ccd6f6;
+    padding: 20px;
+}
+
+.contact a:active{
+    background-color:yellow;
+}
 
 @media(max-width:992px){
 
